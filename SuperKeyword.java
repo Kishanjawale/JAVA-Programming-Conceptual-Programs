@@ -26,7 +26,7 @@ class Derived extends Base
     //Constructor of Derived Class
     public Derived()
     {
-
+        //Passing parameter to the Base class Constructor
         super(11, 21);
         
         System.err.println("Inside Dervied Constructor");
